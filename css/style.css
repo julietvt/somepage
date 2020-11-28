@@ -18,3 +18,40 @@ body {
   width: 80%;
   margin: auto;
 }
+
+header {
+  background-image: url('./../img/img0.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+}
+header h1 {
+  padding-top: 110px;
+  font-size: 2em;
+}
+header p {
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  font-size: 1em;
+}
+header a {
+  text-decoration: none;
+  border: 2px solid while;
+  padding: 1em 2em;
+  color: var(--primary-color);
+  font-size: 1em;
+  text-transform: capitalize;
+}
+header a:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
