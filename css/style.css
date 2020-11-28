@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  --primary-color: white;
+  --secondary-color: black;
+  --bg-primary-color: #333;
+  --bg-secondary-color: #2690d4;
+}
+body {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
