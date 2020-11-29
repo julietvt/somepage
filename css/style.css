@@ -45,7 +45,7 @@ header p {
 }
 header a {
   text-decoration: none;
-  border: 2px solid while;
+  border: 2px solid white;
   padding: 1em 2em;
   color: var(--primary-color);
   font-size: 1em;
